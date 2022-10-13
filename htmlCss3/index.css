@@ -1,0 +1,97 @@
+body{
+    width: 1024;
+   margin: 0;
+    font-family: "Triong", serif;
+    background-image: linear-gradient(to right, rgb(0, 255, 191), rgb(0, 174, 255));
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(120deg, #ce9aff 0%, #65b5f6 80%);
+}
+
+#logo{
+   float: left;
+   display: flex;
+   text-align: center;
+   padding: 15px 18px;
+   text-decoration: none;
+   font-size: 18px;
+}
+
+#navbar{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 15px 18px;
+        text-decoration: none;
+        font-size: 18px;
+}
+
+li{
+    display: inline;
+}
+/********Animation********/
+
+#animationContainer{
+   background: url('/htmlCss3/image/city.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+   color: #ce9aff;
+}
+input[type=button]{
+background-image: linear-gradient(120deg, #ce9aff 50%, #65b5f6 20%);
+}
+/*******App********/
+#appContainer{
+    background: url('/htmlCss3/image/furtado.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align:start;
+        color: chartreuse;
+}
+input[type=button] {
+    background-image: linear-gradient(120deg, #ce9aff 50%, #65b5f6 20%);
+}
+
+/***********Bootstrap*******/
+#bootstrapContainer {
+    background: url('/htmlCss3/image/cow.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-align: center;
+    color: magenta;
+}
+
+input[type=button] {
+    background-image: linear-gradient(120deg, #ce9aff 50%, #65b5f6 20%);
+}
+
+/***********Box*******/
+#boxContainer {
+    background: url('/htmlCss3/image/cow1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    color: magenta;
+}
+
+input[type=button] {
+    background-image: linear-gradient(120deg, #ce9aff 50%, #65b5f6 20%);
+}
+
+/***********Cascading*******/
+#cascadingContainer {
+    background: url('/htmlCss3/image/tree.png');
+    background-repeat: repeat;
+    background-size: contain;
+    text-align: center;
+    color: magenta;
+}
+
+input[type=button] {
+    background-image: linear-gradient(120deg, #ce9aff 50%, #65b5f6 20%);
+}
